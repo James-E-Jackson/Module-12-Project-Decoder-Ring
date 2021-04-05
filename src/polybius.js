@@ -23,6 +23,7 @@ const polybiusModule = (function () {
         returnArr.push({key, char})//push object that looks like {key: 11, char: a}
       }
     }
+    console.log(returnArr)
     return returnArr;//new array of objects that looks like [{key: 11, char: a},{key, char},...]
   }
 
